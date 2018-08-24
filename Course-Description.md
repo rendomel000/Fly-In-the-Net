@@ -6,7 +6,7 @@ Students shall be awarded two credits for successful completion of this course. 
 
 Recommended prerequisites from Texas: Computer Science I & Algebra II. Computer Science 1 is an intermediate-level course, not introductory level. Prior to taking Computer Science 1, it is recommended for students to complete Fundamentals of CS or Digital Communications. Students may also consider taking Digital Art to increase general knowledge of tech and applications. Students may consider taking Web Design alongside IB DP CS.
 
-![alt text](../images/compsci-dp-cs.jpg "CC 2.0: Generic | Cropped  | Eric Miraglia")
+![alt text](compsci-dp-cs.jpg "CC 2.0: Generic | Cropped  | Eric Miraglia")
 
 Computer science is regarded as an experimental science, alongside biology, chemistry, design technology, physics and environmental systems and societies. All computer science students will work with other students of group 4 subjects (physics, chemistry, biology and design technology).
 
@@ -63,7 +63,7 @@ After School: Monday, Tuesday, & Thursday
 
 If you need other accommodations, please see your instructor to make an appointment.
 
-![alt text](../images/cheating.jpg "CC 2.0: Generic | Cropped, Grey Scale, Selective Blur  |  Craig Sunter")
+![alt text](cheating.jpg "CC 2.0: Generic | Cropped, Grey Scale, Selective Blur  |  Craig Sunter")
 
 #### Cheating & Academic Dishonesty
 
