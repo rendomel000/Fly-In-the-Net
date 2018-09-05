@@ -56,7 +56,7 @@ Design and Tech places a higher grade percentages on what you do everyday, as op
 
 If there is a question regarding grades in any of your classes, please speak to your teacher sooner than later. There are limitations to when changes can be made. If a grade should be changed, and it isn't because you chose not to talk to me about it, it won't be changed.
 
-![alt text](https://shawnwegs.github.io/Starting-Class/exy.png "No") I understand
+![alt text](checky.png "Yes") I understand
 
 ### Cheating & Academic Dishonesty
 ##### Copyright & Intellectual Property:
@@ -64,11 +64,11 @@ All forms of academic dishonesty and cheating are taken seriously. Some forms of
  
 Many students are under the belief that if it is for education, copyright and intellectual property laws don't apply. This is not the case. Many companies choose not to file charges when copyright or intellectual property laws are violated for educational use; some companies do, and this doesn't mean they can't choose to at a later point in time. Use of others' works within your own work, without proper documentation can result in loss of credit. However, use of copyrighted material can also result in legal issues in addition to any academic woes.
 
-![alt text](https://shawnwegs.github.io/Starting-Class/exy.png "No") I understand
+![alt text](checky.png "Yes") I understand
 
 ##### Collaboration vs Collusion:
 All forms of academic dishonesty and cheating are taken seriously. Some forms of cheating and academic dishonesty are more self-explanatory than others. The form of academic dishonesty that seems to confuse students is collusion. Collusion is providing or receiving unauthorized aid or assistance. What is or isn't authorized can vary from course to course, so it is important that you communicate with, and understand the expectations of, your instructor.
  
 Research, as well as personal experience, shows that students tend to understand content better when working with and discussing content with other students. Some assignments will actually require it. However, it is important that the aid and assistance you receive, or that you provide, is authorized. If you are physically touching another student's keyboard, mouse, or sending complete or partial chunks of an assignment, you are likely engaging in collusion, not collaboration. If unsure, it's better to ask. Collusion is a form of academic dishonesty and can result in loss of credit for all parties involved.
 
-![alt text](https://shawnwegs.github.io/Starting-Class/exy.png "No") I understand
+![alt text](checky.png "Yes") I understand
