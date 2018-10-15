@@ -1,0 +1,87 @@
+<html>
+<head>
+</head>
+<body>
+
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>Put your mouse back on the machine!!</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Shape Machine</title>
+  <rect id="Bg_Shape1" height="227" width="276" y="99.5" x="154" stroke-width="1.5" fill="#616363"/>
+  <rect stroke="null" id="Bg_Shape2" height="156.999987" width="404" y="217" x="90" stroke-width="1.5" fill="#616363"/>
+  <ellipse stroke="null" ry="88.000004" rx="138" id="Bg_Shape3" cy="98.437496" cx="292.000009" fill-opacity="null" stroke-width="1.5" fill="#616363"/>
+  <rect stroke="null" id="Bg_Shape4" height="111.000008" width="343.000001" y="237.437492" x="120.999994" stroke-opacity="null" stroke-width="1.5" fill="#8b8e8e"/>
+  <ellipse stroke="null" ry="34.000001" rx="84.000004" id="BgShape5" cy="65.000001" cx="289.999998" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="#8b8e8e"/>
+
+  <g id='Shapes'>
+  <ellipse id="RedCircle" onclick="callRedCircle()" stroke="null" ry="35" rx="38.5" cy="158.4375" cx="204.5" stroke-opacity="null" stroke-width="1.5" fill="#ef0707"  onmouseover="document.getElementById('RedCircle').setAttribute('fill','#f93939'); document.getElementById('RedCircle').setAttribute('stroke','#c60606'); document.getElementById('RedCircle').setAttribute('stroke-width','3');" onmouseout= "document.getElementById('RedCircle').setAttribute('stroke-opacity','null')
+document.getElementById('RedCircle').setAttribute('stroke-width','1.5')
+document.getElementById('RedCircle').setAttribute('stroke','null')
+document.getElementById('RedCircle').setAttribute('fill','#ef0707')"/>
+
+  <rect id="YellowSquare" onclick="callYellowSquare()" stroke="null" height="70" width="75" y="122.4375" x="256" stroke-opacity="null" stroke-width="1.5" fill="#ffff00" onmouseover="document.getElementById('YellowSquare').setAttribute('fill','#ffff34'); document.getElementById('YellowSquare').setAttribute('stroke','#e0e02c'); document.getElementById('YellowSquare').setAttribute('stroke-width','3');" onmouseout="document.getElementById('YellowSquare').setAttribute('stroke-opacity','null');
+document.getElementById('YellowSquare').setAttribute('stroke-width','1.5');
+document.getElementById('YellowSquare').setAttribute('stroke','null');
+document.getElementById('YellowSquare').setAttribute('fill','#ffff00');"/>
+
+
+  <rect id="BlueRectangle" onclick="callBlueRectangle()" stroke="null" height="85.000001" width="62.000002" y="111.4375" x="350" stroke-opacity="null" stroke-width="1.5" fill="#0000ff" onmouseover="document.getElementById('BlueRectangle').setAttribute('fill','#5656e5');
+   document.getElementById('BlueRectangle').setAttribute('stroke','#0606c4');
+   document.getElementById('BlueRectangle').setAttribute('stroke-width','3');" onmouseout="document.getElementById('BlueRectangle').setAttribute('stroke','null');
+document.getElementById('BlueRectangle').setAttribute('stroke-width','1.5');
+document.getElementById('BlueRectangle').setAttribute('fill','#0000ff');"/>
+  </g>
+
+  <g id='Information'>
+  <text stroke="null" transform="matrix(0.7960940580286788,0,0,0.9124147249044193,46.98910554787458,6.922401162303336) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="24" id="svg_21" y="55.285586" x="243.774559" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">What shape</text>
+  <text style="cursor: move;" stroke="null" transform="matrix(1.0985949916016011,0,0,1.2015021877425043,-39.67185155750475,-76.14764339657891) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="24" id="svg_22" y="299.527239" x="311.187311" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">This is...</text>
+  <text id="UnknownWords" stroke="null" transform="matrix(1.0985949916016011,0,0,1.2015021877425043,-39.67185155750475,-76.14764339657891) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="24" id="ShapeName" y="326.160565" x="300.264268" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"> a _____.</text>
+  <text stroke="null" transform="matrix(0.7813567519187927,0,0,0.9124147249044193,50.50659030675888,6.922401162303336) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="24" id="svg_17" y="82.685407" x="273.234229" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">is this?</text>
+
+  <ellipse id="NewRedCircle" ry="35" rx="38.5" cy="5000" cx="5000" stroke-opacity="null" stroke-width="1.5" stroke="null" fill="#ef0707"/>
+  <rect id="NewYellowSquare" stroke="null" height="70" width="75" y="5000" x="5000" stroke-opacity="null" stroke-width="1.5" fill="#ffff00"/>
+  <rect id="NewBlueRectangle" stroke="null" height="85.000001" width="62.000002" y="5000" x="5000" stroke-opacity="null" stroke-width="1.5" fill="#0000ff"/>
+ </g>
+ </g>
+</svg>
+<script>
+ function callBlueRectangle(){
+   document.getElementById('NewBlueRectangle').setAttribute('y','250.4375');
+   document.getElementById('NewBlueRectangle').setAttribute('x','170');
+   document.getElementById('NewYellowSquare').setAttribute('y','5000');
+   document.getElementById('NewYellowSquare').setAttribute('x','5000');
+   document.getElementById('NewRedCircle').setAttribute('cy','5000');
+   document.getElementById('NewRedCircle').setAttribute('cx','5000');
+   document.getElementById('UnknownWords').innerHTML="a rectangle."
+ }
+
+ function callYellowSquare(){
+   document.getElementById('NewYellowSquare').setAttribute('y','257.4375');
+   document.getElementById('NewYellowSquare').setAttribute('x','152');
+   document.getElementById('NewBlueRectangle').setAttribute('y','5000');
+   document.getElementById('NewBlueRectangle').setAttribute('x','5000');
+   document.getElementById('NewRedCircle').setAttribute('cy','5000');
+   document.getElementById('NewRedCircle').setAttribute('cx','5000');
+   document.getElementById('UnknownWords').innerHTML="a square."
+ }
+
+ function callRedCircle(){
+   document.getElementById('NewRedCircle').setAttribute('cy','290');
+   document.getElementById('NewRedCircle').setAttribute('cx','210');
+   document.getElementById('NewYellowSquare').setAttribute('y','5000');
+   document.getElementById('NewYellowSquare').setAttribute('x','5000');
+   document.getElementById('NewBlueRectangle').setAttribute('y','5000');
+   document.getElementById('NewBlueRectangle').setAttribute('x','5000');
+   document.getElementById('UnknownWords').innerHTML="a circle."
+ }
+
+</script>
+</body>
+</html>
