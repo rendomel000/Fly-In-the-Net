@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<script>
+
+			var languages = [
+				"Markup Language", "A language based around tags to build simple webpages. Much more legible to the human eye in comparison to other languages. <br><i>Examples include HTML, XML and SGML</i>.",
+				"High Level Programming Languge", "A programming language that is similar to that of human languages and are most often interpreted. Much more object-oriented. <br><i>Examples include Python, C++, and Ruby.</i>",
+				"Low Level Programming Language", "Languages that barely change from the computer's original language. Faster than using a high level programming language, but harder to learn and write. <br><i>An example is the assembler language.",
+				"Compiled Programming Language", "Translates machine code from the code provided by the writer before executing the desired program. Much faster to use than an interpreted language. <br><i>Examples include C, C++, and Java.</i>",
+				"Interpreted Programming Language", "Unlike compiled languages, interpreted languages are run through a program aside from the computer. Each line of code is checked individually, thus giving the program the ability to declare errors on the line it was made on. Much slower than a compiled language. <br><i>Examples include Javascript and Python.</i>",
+				"Style Sheet Language", "A markup language that is used to adjust the style of coded documents.<br><i>The most common example is CSS.</i>"
+			]
+
+			function changeLanguage(lang, words){
+				document.getElementById("header1").innerHTML = languages[lang];
+				document.getElementById("para1").innerHTML = languages[words];
+			}
+
+		</script>
+	</head>
+
+	<body>
+		<center>
+			<h1 id="header1">Programming Languages</h1>
+			<p id="para1">Please choose a language to read more about it.</p>
+		------------------------------------------------------------------
+			<i>
+				<br>
+				<br>
+				<span onclick="changeLanguage(0,1)">-Markup Language</span>
+				<br>
+				<br>
+				<span onclick="changeLanguage(2,3)">-High Level Programming Language</span>
+				<br>
+				<br>
+				<span onclick="changeLanguage(4,5)">-Low Level Programming Language</span>
+				<br>
+				<br>
+				<span onclick="changeLanguage(6,7)">-Compiled Programming Language</span>
+				<br>
+				<br>
+				<span onclick="changeLanguage(8,9)">-Interpreted Programming Language</span>
+				<br>
+				<br>
+				<span onclick="changeLanguage(10,11)">-Style Sheet Language</span>
+			</i>
+		</center>
+	</body>
+</html>
