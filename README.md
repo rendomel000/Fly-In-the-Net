@@ -16,5 +16,5 @@ The FriendMaker101 includes a bunch of nonsense for you to respond to with two c
 *[Programming Languages](https://rendomel000.github.io/Fly-In-the-Net/ProgrammingLanguages.html)  
 Types of languages or variations of programming languages formatted into one page with clickable options.
 
-*[Programmer's Guide to Dating Mock-Up](https://rendomel000.github.io/Fly-In-the-Net/RendonMelody_Final.pdf)
+*[Programmer's Guide to Dating Mock-Up](https://rendomel000.github.io/Fly-In-the-Net/RendonMelody_Final.pdf)  
 My final for Computer Science was a mock-up for a nonexistant sim-date. Possible future idea? Hopefully not.
