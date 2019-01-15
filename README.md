@@ -7,6 +7,6 @@ Started in 11th Grade.
 *[Class Notes](https://rendomel000.github.io/Fly-In-the-Net/Class-Notes)  
 
 ## Assignments
-*[Forms](https://rendomel000.github.io/Fly-In-the-Net/FormsModified.html)
-*[Three Methods](https://rendomel000.github.io/Fly-In-the-Net/ThreeMethods.html)
-*[Programming Languages](https://rendomel000.github.io/Fly-In-the-Net/ProgrammingLanguages.html)
+*[Forms](https://rendomel000.github.io/Fly-In-the-Net/FormsModified.html)  
+*[Three Methods](https://rendomel000.github.io/Fly-In-the-Net/ThreeMethods.html)  
+*[Programming Languages](https://rendomel000.github.io/Fly-In-the-Net/ProgrammingLanguages.html)  
