@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Javascript</title>
+      <script type="text/javascript">
+      function init()
+      {
+        document.getElementById("textOutput").innerHTML = "Enter your name and then click the button.";
+      }
+
+      function clickButton()
+      {
+        var name = document.getElementById("textEntry").value;
+
+        document.getElementById("textOutput").innerHTML = createGreeting(name);
+
+      }
+
+      function createGreeting(newName)
+      {
+        var greeting = "Hello, " + newName + "! :)";
+        return greeting;
+      }
+
+      function validation(){
+        var name = document.getElementById("textEntry").value;
+        if(name.length<=4)
+        {
+          document.getElementById("textOutput").innerHTML = "Please enter a name longer than 4 characters.";
+          return false;
+        }
+        else if(name.length>=16){
+          document.getElementById("textOutput").innerHTML = "Please enter a name shorter than 16 characters.";
+          return false;
+        }
+      else if(name.length>4){
+        document.getElementById("textOutput").innerHTML = createGreeting(name);
+        return true;
+      }
+    }
+
+      </script>
+    </head>
+
+    <body onload="init();">
+      <h1>Javascript Hello-Generator</h1>
+
+      <div id="textOutput"></div>
+
+      <p><b>Enter your name:<b></p>
+      <textarea id="textEntry"></textarea>
+
+      <br>
+      <button id="myButton" onclick="validation();">Click me</button>
+
+    </body>
+
+  </html>
