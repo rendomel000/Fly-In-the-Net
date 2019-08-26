@@ -20,3 +20,4 @@ Types of languages or variations of programming languages formatted into one pag
 My final for Computer Science was a mock-up for a nonexistant sim-date. Possible future idea? Hopefully not.
 
 *[Sad Stuff :(](https://rendomel000.github.io/Fly-In-the-Net/CodeSomething.html)
+A very sad website. Sad Stuff. :(
