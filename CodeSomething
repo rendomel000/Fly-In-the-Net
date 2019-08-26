@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {
+      background-color: green;
+      background-image: url("hecookin.gif");
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    h1 {
+      font-family: Impact, Charcoal, sans-serif;
+    }
+
+    #monkeyImage {
+      width: 1000px;
+      height: 1000px;
+      object-fit:contain;
+      opacity: 0.0;
+    }
+
+    #monkeyImage:hover {
+      opacity: 2.0;
+      -webkit-transition: opacity 3s;
+      transition: 3s;
+    }
+    </style>
+
+    <script>
+      function monkeyButton() {
+        alert("im monky");
+      }
+
+    </script>
+    <title>:(</title>
+  </head>
+
+  <body>
+    <h1>:( Sad Stuff</h1>
+
+    <embed name="AtRest" src="/music/at-rest.mp3" loop="true" hidden="true" autostart="true">
+
+    <img src="sadmonky.jpg" alt="Nobody Care Me" id="monkeyImage">
+    <br><button type="button" onclick="monkeyButton()" id="basicallybutton">so basically</button>
+    <br>this website really isn't that funny
+  </body>
+</html>
+
+Music from https://filmmusic.io
+"At Rest" by Kevin MacLeod (https://incompetech.com)
+License: CC BY (http://creativecommons.org/licenses/by/4.0/)
