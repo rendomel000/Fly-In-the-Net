@@ -22,4 +22,4 @@ My final for Computer Science was a mock-up for a nonexistant sim-date. Possible
 *[Sad Stuff :(](https://rendomel000.github.io/Fly-In-the-Net/CodeSomething.html)      
 A very sad website. Sad Stuff. :(
 
-*[Choose your Own Adventure](https://rendomel000.github.io/Fly-In-the-Net/ChooseYourOwnAdventure.html)
+*[Choose Your Own Adventure](https://rendomel000.github.io/Fly-In-the-Net/ChooseYourOwnAdventure.html)
